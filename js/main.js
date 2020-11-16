@@ -160,13 +160,6 @@ $(function(){
   $('img').mouseout(function(){
     $('img').eq(23).attr('src', './images/inv_box04.png');
   })
-  // 이미지 속성 변경: attr(속성명, 값) 5번째 슬라이드
-  $('img').eq(24).mouseover(function(){
-    $('img').eq(24).attr('src', './images/fund_product_hover01.png');
-  })
-  $('img').mouseout(function(){
-    $('img').eq(24).attr('src', './images/inv_box01.png');
-  })
 
   
 })
