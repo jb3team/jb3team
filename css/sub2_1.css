@@ -245,7 +245,6 @@ body {
   position: relative;
   padding-top: 10px;
   padding-left: 1000px;
-  overflow: hidden;
 }
 .breadcrumb > a {
   /* outline: 1px solid red; */
@@ -254,7 +253,38 @@ body {
 
 
 
-/* main  */
+/* swiper  */
+.swiper-container {
+  width: 1150px;
+  height: 300px;
+  margin: 0 auto;
+  top: 200px;
+  /* outline: 1px solid red; */
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide:first-child {
+  background-image: url("../images/sub2_2_sub.png");
+}
+.swiper-slide:last-child{
+  background-image: url("../images/sub2_3_sub.png");
+}
 
 
 
@@ -262,7 +292,7 @@ body {
 #fund {
   /* outline: 1px solid red; */
   position: relative;
-  width: 1200px; height: 1500px;
+  width: 1200px; height: 950px;
   margin: 0 auto;
   top: 110px;
 }
@@ -344,9 +374,20 @@ body {
   font-size: 18px;
 }
 
-
-
-
+#info {
+  /* outline: 1px solid red; */
+  position: relative;
+  width: 1200px; height: 150px;
+  margin: 0 auto;
+  top: 100px;
+  padding: 20px;
+  color: #707070;
+  margin-bottom: 250px;
+}
+#info p {
+  font-size: 13px;
+  line-height: 23px;
+}
 
 
 
@@ -417,6 +458,7 @@ body {
 
 
 
+
 /* 맨위로 */
 .pagetop_fixed{
   /* outline: 1px solid red; */
@@ -426,7 +468,7 @@ body {
   bottom:418px;
   background-color: #00286C;
   bottom:150px;
-  z-index: 999;
+  z-index: 9999;
 }
 .pagetop_fixed a{
   color: white;
