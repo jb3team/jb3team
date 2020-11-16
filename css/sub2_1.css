@@ -51,10 +51,10 @@
 }
 
 .swiper-slide:first-child {
-  background-image: url(../images/sub2_2_sub.png);
+  background-image: url('../images/sub2_2_sub.png');
 }
 .swiper-slide:last-child{
-  background-image: url(../images/sub2_3_sub.png);
+  background-image: url('../images/sub2_3_sub.png');
 }
 
 
