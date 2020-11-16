@@ -132,6 +132,62 @@ $(function(){
   $('img').mouseout(function(){
     $('img').eq(19).attr('src', './images/inv_box04.png');
   })
+  // 이미지 속성 변경: attr(속성명, 값) 4번째 슬라이드
+  $('img').eq(20).mouseover(function(){
+    $('img').eq(20).attr('src', './images/fund_product_hover01.png');
+  })
+  $('img').mouseout(function(){
+    $('img').eq(20).attr('src', './images/inv_box01.png');
+  })
+
+  $('img').eq(21).mouseover(function(){
+    $('img').eq(21).attr('src', './images/fund_product_hover02.png');
+  })
+  $('img').mouseout(function(){
+    $('img').eq(21).attr('src', './images/inv_box02.png');
+  })
+
+  $('img').eq(22).mouseover(function(){
+    $('img').eq(22).attr('src', './images/fund_product_hover03.png');
+  })
+  $('img').mouseout(function(){
+    $('img').eq(22).attr('src', './images/inv_box03.png');
+  })
+
+  $('img').eq(23).mouseover(function(){
+    $('img').eq(23).attr('src', './images/fund_product_hover04.png');
+  })
+  $('img').mouseout(function(){
+    $('img').eq(23).attr('src', './images/inv_box04.png');
+  })
+  // 이미지 속성 변경: attr(속성명, 값) 5번째 슬라이드
+  $('img').eq(24).mouseover(function(){
+    $('img').eq(24).attr('src', './images/fund_product_hover01.png');
+  })
+  $('img').mouseout(function(){
+    $('img').eq(24).attr('src', './images/inv_box01.png');
+  })
+
+  $('img').eq(25).mouseover(function(){
+    $('img').eq(25).attr('src', './images/fund_product_hover02.png');
+  })
+  $('img').mouseout(function(){
+    $('img').eq(25).attr('src', './images/inv_box02.png');
+  })
+
+  $('img').eq(26).mouseover(function(){
+    $('img').eq(26).attr('src', './images/fund_product_hover03.png');
+  })
+  $('img').mouseout(function(){
+    $('img').eq(26).attr('src', './images/inv_box03.png');
+  })
+
+  $('img').eq(27).mouseover(function(){
+    $('img').eq(27).attr('src', './images/fund_product_hover04.png');
+  })
+  $('img').mouseout(function(){
+    $('img').eq(27).attr('src', './images/inv_box04.png');
+  })
 
 
   
