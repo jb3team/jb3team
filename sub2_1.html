@@ -321,6 +321,12 @@
         delay: 3000,
   },
 });
+        // 호버시 멈춤기능
+        $('.swiper-slide').hover(function(){
+          swiper.autoplay.stop();
+        }, function(){
+          swiper.autoplay.start();
+        });
 </script>
 
 
