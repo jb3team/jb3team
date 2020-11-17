@@ -17,16 +17,23 @@
     <link rel="stylesheet" href="./css/jquery.bxslider.css">
     <!-- swiper css -->
     <link rel="stylesheet" href="./css/swiper.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="./css/animate.css">
     <!-- 개인 css -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- 제이쿼리 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- bxslider js -->
     <script src="./js/jquery.bxslider.js"></script>
+    <!-- wow.js -->
+    <script src="./js/wow.min.js"></script>
     <!-- image loaded -->
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <!-- 개인 js -->
     <script src="./js/main.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 </head>
 <body>
     <!-- header : 고정형메뉴바-->
@@ -170,7 +177,7 @@
   
   <!-- 펀드투자 가이드북 -->
   <div class="section3">
-    <section id="guide">
+    <section id="guide" class="wow flipInX">
       <a href="#void">
         <h1>펀드투자 가이드북</h1>
         <p>JB가 준비한 펀드 투자 전, 투자자가 반드시 확인해야 할 모든 것!</p>
@@ -298,7 +305,7 @@
 
       <!-- 고정 fixed -->
       <div class="pagetop_fixed">
-        <a href="#" role="button" class="btntop" >맨위로</a>
+        <a href="#" role="button" class="btntop" >T O P</a>
     </div>
     <div class="pagetop_clone_fixed">
         <a href="#" role="button" class="btntop"></a>
