@@ -453,3 +453,15 @@ font-weight: 300;
 font-weight: 400;
 text-shadow: black;
 }
+
+
+
+/* 슬라이더 페이저색 */
+.swiper-pagination-bullet {
+  /* outline: 1px solid red; */
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 20px;
+  height: 5px;
+}
