@@ -38,11 +38,22 @@ $(document).ready(function(){
       autoHover: true,
       
       tickerHover: 'false'
-
       
     });
   });
 
+});
+
+
+// TOP btn
+$(document).ready(function(){
+  $(window).scroll(function(){
+    if ($(this).scrollTop() >= 700) {
+      $('.pagetop_fixed').fadeIn(300);
+    } else {
+      $('.pagetop_fixed').fadeOut(300);
+    }
+  })
 });
 
   
