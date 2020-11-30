@@ -32,7 +32,7 @@ $(document).ready(function(){
       // 효과: horizontal', 'vertical', 'fade'
       mode: 'fade',
       // 인터벌 시간
-      pause: 5000,
+      pause: 4000,
       // 자동재생: true | false
       auto: true,
       autoHover: true,
@@ -41,20 +41,41 @@ $(document).ready(function(){
       
     });
   });
-
 });
-
 
 // TOP btn
-$(document).ready(function(){
-  $(window).scroll(function(){
-    if ($(this).scrollTop() >= 700) {
-      $('.pagetop_fixed').fadeIn(300);
+// $(document).ready(function(){
+//   $(window).scroll(function(){
+//     if ($(this).scrollTop() >= 700) {
+//       $('.pagetop_fixed').fadeIn(300);
+//     } else {
+//       $('.pagetop_fixed').fadeOut(300);
+//     }
+//   })
+// });
+
+$(function(){
+  $(window).scroll(function(event){
+
+    var scroll = $(this).scrollTop();
+
+    if($(this).scrollTop() < 1000){
+      $('.pagetop_fixed').addClass('off');
+      // $('.pagetop_fixed').fadeIn(300);
     } else {
-      $('.pagetop_fixed').fadeOut(300);
+      $('.pagetop_fixed').addClass('on')
+    }
+
+    if($(this).scrollTop() > 1000){
+      $('.pagetop_fixed').addClass('on');
+      // $('.pagetop_fixed').fadeIn(300);
+    } else {
+      $('.pagetop_fixed').removeClass('on')
     }
   })
-});
+})
+
+
 
   
 $(function(){
@@ -171,6 +192,7 @@ $(function(){
   $('img').mouseout(function(){
     $('img').eq(23).attr('src', './images/inv_box04.png');
   })
+  
 
   
 })
